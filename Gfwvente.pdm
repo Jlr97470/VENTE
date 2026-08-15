@@ -1,0 +1,280 @@
+[Root]
+Most Recent Package=Logiciel d'installation standard
+
+
+[Package|Fichier  1.dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=F:\Mes Sources\Vb\source\BOUTISCOPE\installComposante
+
+[Package|Fichier  1.dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Fichier  1.dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Fichier  1.dep|Files Found]
+
+[Package|Fichier  1.dep|Files Released]
+
+[Package|Fichier  1.dep|Missing Dependency Information]
+C:\Program Files\Fichiers communs\Designer\MSDE.DLL=
+C:\WINNT\system32\msdxm.ocx=
+
+[Package|Fichier  1.dep|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Fichier  1.dep|Files Added]
+
+[Package|Fichier  1.dep|Files Removed]
+c:\winnt\system32\msdxm.ocx=
+
+[Package|Fichier  1.dep|Files In Project]
+F:\Mes Sources\Vb\source\BOUTISCOPE\Vente.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\vb6fr.dll=Yes
+C:\WINNT\system32\msdxm.ocx=No
+C:\Program Files\Fichiers communs\Designer\MSDE.DLL=Yes
+C:\Program Files\Fichiers communs\Designer\MSDERUN.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTFR.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnfr.dll=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDFR.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKFR.DLL=Yes
+C:\Program Files\Fichiers communs\System\ado\msado15.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCFR.DLL=Yes
+
+[Package|Fichier  1.dep|Configure Registry Files]
+Applicable=No
+
+[Package|Fichier  1.dep|Configure Remote Servers]
+Applicable=No
+
+[Package|Fichier  1.dep|Install Locations]
+F:\Mes Sources\Vb\source\BOUTISCOPE\Vente.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vb6fr.dll=$(WinSysPath)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Fichiers communs\Designer\MSDE.DLL=$(CommonFiles)\designer
+C:\Program Files\Fichiers communs\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTFR.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDFR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKFR.DLL=$(WinSysPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Fichiers communs\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCFR.DLL=$(WinSysPath)
+
+[Package|Fichier  1.dep|Configure Shared Files]
+Applicable=Yes
+F:\Mes Sources\Vb\source\BOUTISCOPE\Vente.exe=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Fichier  1.dep|Distribution]
+Type=single
+Size=
+Title=GFWVente
+
+[Package|Fichier  1.dep|IconGroups]
+Group0=GFWVente
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Fichier  1.dep|GFWVente]
+Icon1=Vente.exe
+Title1=GFWVente
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Fichier  1.dep|DepFile]
+DepCabFile=Vente.CAB
+DepCabRun=Vente.INF
+
+[Package|Fichier  1.dep|Package]
+PackageFolder=F:\Mes Sources\Vb\source\BOUTISCOPE\installComposante
+ProjectFolder=F:\Mes Sources\Vb\source\BOUTISCOPE\Source\GFWVENTE
+ServerSideCab=
+File1=F:\Mes Sources\Vb\source\BOUTISCOPE\installComposante\Vente.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Logiciel d'installation standard|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Install Application
+
+[Package|Logiciel d'installation standard|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Logiciel d'installation standard|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel d'installation standard|Files Found]
+
+[Package|Logiciel d'installation standard|Files Released]
+
+[Package|Logiciel d'installation standard|Missing Dependency Information]
+C:\Program Files\Fichiers communs\Designer\MSDE.DLL=
+C:\WINNT\system32\msdxm.ocx=
+
+[Package|Logiciel d'installation standard|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Logiciel d'installation standard|Files Added]
+
+[Package|Logiciel d'installation standard|Files Removed]
+c:\winnt\system32\msdxm.ocx=
+
+[Package|Logiciel d'installation standard|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\vb6fr.dll=Yes
+C:\WINNT\system32\msdxm.ocx=No
+C:\Program Files\Fichiers communs\Designer\MSDERUN.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTFR.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\scrrnfr.dll=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDFR.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKFR.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\DBRPRFR.DLL=Yes
+G:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Vente.exe=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+
+[Package|Logiciel d'installation standard|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation standard|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation standard|Install Locations]
+F:\Mes Sources\Vb\source\BOUTISCOPE\Vente.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vb6fr.dll=$(WinSysPath)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Fichiers communs\Designer\MSDE.DLL=$(CommonFiles)\designer
+C:\Program Files\Fichiers communs\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTFR.DLL=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDFR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKFR.DLL=$(WinSysPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCFR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\DBRPRFR.DLL=$(WinSysPath)
+G:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Vente.exe=$(AppPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+
+[Package|Logiciel d'installation standard|Configure Shared Files]
+Applicable=Yes
+F:\Mes Sources\Vb\source\BOUTISCOPE\Vente.exe=Yes
+D:\Progdev\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+G:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Vente.exe=Yes
+
+[Package|Logiciel d'installation standard|Distribution]
+Type=single
+Size=
+Title=GFWVente
+
+[Package|Logiciel d'installation standard|IconGroups]
+Group0=GFWVente
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation standard|GFWVente]
+Icon1=Vente.exe
+Title1=GFWVente
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Logiciel d'installation standard|Package]
+PackageFolder=g:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Install Application
+ProjectFolder=G:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\SOURCE\PROGRAMME\GFWVENTE
+ServerSideCab=
+File1=g:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Install Application\setup.exe
+File2=g:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Install Application\Setup.Lst
+File3=g:\Mes Sources\VISUAL BASIC\SOURCE\GOFOR\Install Application\Vente.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
